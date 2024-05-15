@@ -1,0 +1,543 @@
+/*
+ * Theme Name:        La Tienda de Nianne WooCommerce
+ * Description:       Tema persoalizado para la tienda virtual "La tienda de Nianne"
+ * Author:            Isabel León
+ * Template:          Storefront
+ * Version:           1.0.0
+ * License:           GPL v2 or later
+ * Tags:              WooCommerce, Responsive
+ */
+
+.wp-block-button__link:not(.has-text-color) {
+    color: #ffffff;
+}
+
+.wp-block-button__link:not(.has-text-color):hover,
+.wp-block-button__link:not(.has-text-color):focus,
+.wp-block-button__link:not(.has-text-color):active {
+    color: #ffffff;
+}
+
+.wp-block-button__link:not(.has-background) {
+    background-color: #e282a8;
+}
+
+.wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link:not(.has-background):focus,
+.wp-block-button__link:not(.has-background):active {
+    border-color: #c9698f;
+    background-color: #c9698f;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+    background-color: #e282a8;
+    border-color: #e282a8;
+    color: #ffffff;
+}
+
+.wp-block-quote footer,
+.wp-block-quote cite,
+.wp-block-quote__citation {
+    color: #595959;
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote footer,
+.wp-block-pullquote__citation {
+    color: #595959;
+}
+
+.wp-block-image figcaption {
+    color: #595959;
+}
+
+.wp-block-separator.is-style-dots::before {
+    color: #8ed4cc;
+}
+
+.wp-block-file a.wp-block-file__button {
+    color: #ffffff;
+    background-color: #e282a8;
+    border-color: #e282a8;
+}
+
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-file a.wp-block-file__button:focus,
+.wp-block-file a.wp-block-file__button:active {
+    color: #ffffff;
+    background-color: #c9698f;
+}
+
+.wp-block-code,
+.wp-block-preformatted pre {
+    color: #595959;
+}
+
+.wp-block-table:not(.has-background):not(.is-style-stripes) tbody tr:nth-child(2n) td {
+    background-color: #f2f2f2;
+}
+
+.wp-block-cover .wp-block-cover__inner-container h1:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h2:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h3:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h4:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h5:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h6:not(.has-text-color) {
+    color: #e282a8;
+}
+
+.wc-block-components-price-slider__range-input-progress,
+.rtl .wc-block-components-price-slider__range-input-progress {
+    --range-color: #7f54b3;
+}
+
+/* Target only IE11 */
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .wc-block-components-price-slider__range-input-progress {
+        background: #7f54b3;
+    }
+}
+
+.wc-block-components-button:not(.is-link) {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.wc-block-components-button:not(.is-link):hover,
+.wc-block-components-button:not(.is-link):focus,
+.wc-block-components-button:not(.is-link):active {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.wc-block-components-button:not(.is-link):disabled {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.wc-block-cart__submit-container {
+    background-color: #f4f4f4;
+}
+
+.wc-block-cart__submit-container::before {
+    color: rgba(209, 209, 209, 0.5);
+}
+
+.wc-block-components-order-summary-item__quantity {
+    background-color: #f4f4f4;
+    border-color: #595959;
+    box-shadow: 0 0 0 2px #f4f4f4;
+    color: #595959;
+}
+
+
+button.menu-toggle,
+button.menu-toggle:hover {
+    border-color: #a3a3a3;
+}
+
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover>a,
+.site-title a:hover,
+.site-header ul.menu li.current-menu-item>a {
+    color: #e4e4e4;
+}
+
+table:not(.has-background) th {
+    background-color: #ededed;
+}
+
+table:not(.has-background) tbody td {
+    background-color: #f2f2f2;
+}
+
+table:not(.has-background) tbody tr:nth-child(2n) td,
+fieldset,
+fieldset legend {
+    background-color: #f0f0f0;
+}
+
+.site-header,
+.secondary-navigation ul ul,
+.main-navigation ul.menu>li.menu-item-has-children:after,
+.secondary-navigation ul.menu ul,
+.storefront-handheld-footer-bar,
+.storefront-handheld-footer-bar ul li>a,
+.storefront-handheld-footer-bar ul li.search .site-search,
+button.menu-toggle,
+button.menu-toggle:hover {
+    background-color: #ffffff;
+}
+
+p.site-description,
+.site-header,
+.storefront-handheld-footer-bar {
+    color: #404040;
+}
+
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {
+    background-color: #e4e4e4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.wc-block-grid__product-title {
+    color: #8ed4cc;
+}
+
+.widget h1 {
+    border-bottom-color: #8ed4cc;
+}
+
+body,
+.secondary-navigation a {
+    color: #595959;
+}
+
+.widget-area .widget a,
+.hentry .entry-header .posted-on a,
+.hentry .entry-header .post-author a,
+.hentry .entry-header .post-comments a,
+.hentry .entry-header .byline a {
+    color: #5e5e5e;
+}
+
+button:focus,
+.button.alt:focus,
+input:focus,
+textarea:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus {
+    outline-color: #ffffff!important; 
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.widget a.button {
+    background-color: #e282a8;
+    border-color: #e282a8;
+    color: #ffffff;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.button:hover,
+.widget a.button:hover {
+    background-color: #c9698f;
+    border-color: #c9698f;
+    color: #ffffff;
+}
+
+button.alt,
+input[type="button"].alt,
+input[type="reset"].alt,
+input[type="submit"].alt,
+.button.alt,
+.widget-area .widget a.button.alt {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+}
+
+button.alt:hover,
+input[type="button"].alt:hover,
+input[type="reset"].alt:hover,
+input[type="submit"].alt:hover,
+.button.alt:hover,
+.widget-area .widget a.button.alt:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.pagination .page-numbers li .page-numbers.current {
+    background-color: #dbdbdb;
+    color: #4f4f4f;
+}
+
+#comments .comment-list .comment-content .comment-text {
+    background-color: #ededed;
+}
+
+.site-footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding:initial;
+}
+
+.site-footer a:not(.button):not(.components-button) {
+    color: #848484;
+}
+
+.site-footer .storefront-handheld-footer-bar a:not(.button):not(.components-button) {
+    color: #a3a3a3;
+}
+
+.site-footer h1,
+.site-footer h2,
+.site-footer h3,
+.site-footer h4,
+.site-footer h5,
+.site-footer h6,
+.site-footer .widget .widget-title,
+.site-footer .widget .widgettitle {
+    color:#e282a8;
+}
+
+.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-title {
+    color: #e282a8;
+}
+
+.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-content {
+    color: #8ed4cc;
+}
+
+/* NUEVOS ESTILOS */
+/* HEADER */ 
+
+/* Estilos menú Redes Sociales */
+.secondary-navigation a {
+    font-size: 1.8em;
+    padding: .5em!important;
+}
+
+/* MENU REDES SOCIALES */
+.secondary-navigation a[href*="dribbble.com"], .secondary-navigation a[href*="facebook.com"], .secondary-navigation a[href*="flickr.com"], .secondary-navigation a[href*="foursquare.com"], .secondary-navigation a[href*="plus.google.com"], .secondary-navigation a[href*="instagram.com"], .secondary-navigation a[href*="linkedin.com"], .secondary-navigation a[href*="pinterest.com"], .secondary-navigation a[href*="reddit.com"], .secondary-navigation a[href*="tumblr.com"], .secondary-navigation a[href*="twitter.com"], .secondary-navigation a[href*="vimeo.com"], .secondary-navigation a[href*="wordpress.com"], .secondary-navigation a[href*="wordpress.org"], .secondary-navigation a[href*="youtube.com"], .secondary-navigation a[href*="mailto:"], .secondary-navigation a[href*="twitch.tv"], .secondary-navigation a[href$="/feed/"] {
+    text-indent: -9999px; }
+    .secondary-navigation a[href*="dribbble.com"]:after, .secondary-navigation a[href*="facebook.com"]:after, .secondary-navigation a[href*="flickr.com"]:after, .secondary-navigation a[href*="foursquare.com"]:after, .secondary-navigation a[href*="plus.google.com"]:after, .secondary-navigation a[href*="instagram.com"]:after, .secondary-navigation a[href*="linkedin.com"]:after, .secondary-navigation a[href*="pinterest.com"]:after, .secondary-navigation a[href*="reddit.com"]:after, .secondary-navigation a[href*="tumblr.com"]:after, .secondary-navigation a[href*="twitter.com"]:after, .secondary-navigation a[href*="vimeo.com"]:after, .secondary-navigation a[href*="wordpress.com"]:after, .secondary-navigation a[href*="wordpress.org"]:after, .secondary-navigation a[href*="youtube.com"]:after, .secondary-navigation a[href*="mailto:"]:after, .secondary-navigation a[href*="twitch.tv"]:after, .secondary-navigation a[href$="/feed/"]:after {
+      font-family: "FontAwesome";
+      text-indent: 0;
+      display: block;
+      float: left; }
+  .secondary-navigation a[href$="/feed/"]:after {
+    content: "\f09e";
+    color: #ff9900; }
+  .secondary-navigation a[href*="twitch.tv"]:after {
+    content: "\f1e8";
+    color: #6441A5; }
+  .secondary-navigation a[href*="mailto:"]:after {
+    content: "\f003"; }
+  .secondary-navigation a[href*="youtube.com"]:after {
+    content: "\f167";
+    color: #bb0000; }
+  .secondary-navigation a[href*="wordpress.com"]:after, .secondary-navigation a[href*="wordpress.org"]:after {
+    content: "\f19a";
+    color: #0073aa; }
+  .secondary-navigation a[href*="twitter.com"]:after {
+    content: "\f099";
+    color: #00aced; }
+  .secondary-navigation a[href*="facebook.com"]:after {
+    content: "\f09a";
+    color: #3b5998; }
+  .secondary-navigation a[href*="plus.google.com"]:after {
+    content: "\f0d5";
+    color: #dd4b39; }
+  .secondary-navigation a[href*="instagram.com"]:after {
+    content: "\f16d";
+    color: #517fa4; }
+  .secondary-navigation a[href*="linkedin.com"]:after {
+    content: "\f0e1";
+    color: #007bb6; }
+  .secondary-navigation a[href*="pinterest.com"]:after {
+    content: "\f231";
+    color: #cb2027; }
+
+/* Establece padding en la cabecera, elimina borde inferior */
+.site-header {
+    padding-top: 1em!important;
+    margin-bottom: 1em!important;
+    border-bottom: none!important;
+}
+
+/* Oculta el overflow del menu primario: 
+    Inicio, Blog, Tienda, Nosotros */
+.storefront-primary-navigation{
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Aplica borde blanco a los enlaces del header, para eliminar el borde violeta */
+.site header a {
+    outline: white;
+}
+
+/* Elimina breadcrumb */ 
+.storefront-breadcrumb{
+    display: none;
+}
+
+/* Elimina contador resultados */ 
+.woocommerce-result-count {
+    display: none;
+}
+
+/* Añade estilos al cupon de descuento */ 
+.cupon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* TIENDA */
+/* Restablece la altura de la línea a su valor inicial */ 
+body {
+    line-height: initial;
+}
+
+/* Aumenta el tamaño del título h1 de la página*/ 
+h1 {
+    font-weight: 600!important;
+}
+
+/* Aumenta el tamaño del título h2 del producto */
+h2 {
+    font-size: 20px!important;
+}
+
+/* Aumenta el tamaño del enlace en h2 */ 
+h2 a {
+    font-weight: 600!important;
+}
+
+/* Muestra el precio de cada producto */ 
+ul.products li.product .price {
+    color: #000000;
+}
+
+/* Aplica una transición a las imágenes */
+ul.products li img {
+    transition: all.5s ease;
+}
+
+/* La imagen se escala a 110% horiz y vertical cuando hace hover */
+ul.products li img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/*Aplica el borde blanco a los enlaces de las imágenes de la tienda, para eliminar el borde violeta */
+ul.products li.product a {
+    outline: white;
+}
+
+/* Elimina el segundo div storefront-sorting que está repetido*/ 
+div.storefront-sorting:nth-of-type(2) {
+    display: none;
+}
+
+/* PÁGINA DEL PRODUCTO */
+/* Oculta la paginacion en los laterales */
+.storefront-product-pagination {
+    display: none;
+}
+
+/* Cambia el color de fondo del mensaje de añadido al carrito */ 
+.woocommerce-message {
+    background-color: #8ed4cc;
+}
+
+/* Añade un margen a la derecha del icono del botón "Añadir al carrito" */ 
+.fa.fa-shopping-cart::before {
+    margin-right: 10px;
+}
+
+/*Aplica color a los metadatos en la página del producto
+    "categoría" y "etiquetas" */
+.product_meta a {
+    color: #63948e;
+}
+
+.woocommerce-tabs ul.tabs li a, .woocommerce-tabs ul.tabs li.active a {
+    color: #63948e;
+    outline: white;
+}
+
+/* BLOG*/ 
+/* Centra el título de cada entrada */ 
+.entry-header .entry-title {
+    text-align: center;
+}
+
+/*Margenes y tamaño título de las entradas del blog */
+.entry-header h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px!important;
+    font-weight: 600 !important;
+}
+
+/* Ocultar elementos del "entry-header",
+    posted-on, post-author, post-comments */ 
+span.posted-on, span.post-author, span.post-comments {
+    display: none;
+}
+
+/* Elimina margenes al pie de la entrada y la línea de borde */
+.hentry .entry-taxonomy {
+    margin: 0%;
+    padding-top:0%;
+    border-top: none;
+}
+
+
+
+
+
+/* FOOTER */ 
+/* Estilos del nuevo footer personalizado */
+.reservados {
+    background-color: #000000;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.reservados p{
+    font-size: 12px;
+}
+
+
+/* ESTILOS PARA MOVIL */ 
+@media only screen and (max-width: 767px){
+
+    .main-navigation ul.menu, .main-navigation ul.nav-menu {
+        overflow: hidden;
+    }
+
+    button.menu-toggle,
+    button.menu-toggle:hover {
+        background-color: #000;
+        border-color: #000;
+        color: #e4e4e4;
+    }
+
+    .storefront-primary-navigation .menu {
+        background-color: #000000;
+    }
+
+    .storefront-primary-navigation ul.menu {
+        padding-left: 15px ;
+    }
+
+    .storefront-primary-navigation ul.menu li a{
+        font-size: 20px;
+    }
+
+}
