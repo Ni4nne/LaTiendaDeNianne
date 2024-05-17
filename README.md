@@ -6,3 +6,7 @@
 :computer: Technologies: HTML, CSS, PHP. <br> 
 
 <p align="center"><img src="https://img.shields.io/badge/STATUS-FINISHED-green"></p>
+
+
+https://github.com/Ni4nne/LaTiendaDeNianne/assets/101357594/50941950-a8da-49b7-a252-f4898435be57
+
