@@ -470,10 +470,30 @@ div.storefront-sorting:nth-of-type(2) {
 }
 
 
-/*Aplica estilos al enlace "Entradas del Blog" */ 
+/*Aplica estilos al título "Entradas del Blog" */ 
 h2.section-title {
     text-align: center!important;
     font-size: 35px!important;
+}
+
+/*Elimina los estilos de ul */ 
+.entradas-blog ul {
+    list-style: none;
+}
+
+/*Establece margen inferior de h3 */
+.entradas-blog h3 {
+    margin-bottom: 5px!important;
+}
+
+/*Establece margen inferior de p */
+.encabezado-entrada p {
+    margin: 5px;
+}
+
+/*Añade margen inferior al contenido el post */
+.contenido-entrada {
+    margin-bottom: 20px;
 }
 
 

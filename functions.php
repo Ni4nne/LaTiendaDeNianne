@@ -103,6 +103,28 @@ function tiendaNianne_mostrar_entradas_blog(){
 
 <div class="entradas-blog">
     <h2 class="section-title"> Últimas entradas del blog </h2>
+    <ul>
+        <?php while ($entradas->have_posts()): $entradas->the_post(); ?>
+            
+            <li> 
+                <?php the_title('<h3>', '</h3>'); ?> 
+                <div class="contenido-entrada"> 
+                    <header class="encabezado-entrada">
+                        <p>Autor: <?php the_author(); ?> | <?php the_time(get_option('date_format')); ?> </p>
+                    </header>
+
+                    <?php 
+                    //Definimos la cantidad de palabras del contenido del post que se van a mostrar
+                    $contenido = wp_trim_words(get_the_content(), 20);
+                    echo $contenido;
+                    ?>
+                    <a href="<?php the_permalink(); ?>" class="enlace-entrada"> Leer más </a>
+                </div>
+            </li>
+
+        <?php endwhile;  wp_reset_postdata(); ?>
+       
+    </ul>
 </div>
     
 
