@@ -469,6 +469,14 @@ div.storefront-sorting:nth-of-type(2) {
     outline: white;
 }
 
+
+/*Aplica estilos al enlace "Entradas del Blog" */ 
+h2.section-title {
+    text-align: center!important;
+    font-size: 35px!important;
+}
+
+
 /* BLOG*/ 
 /* Centra el título de cada entrada */ 
 .entry-header .entry-title {

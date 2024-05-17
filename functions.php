@@ -90,3 +90,24 @@ function tiendaNianne_imagen_prod_default($imagen_url){
     return $imagen_url;
 }
 add_filter('woocommerce_placeholder_img_src', 'tiendaNianne_imagen_prod_default');
+
+//Muestra enlace a las entradas del Blog
+function tiendaNianne_mostrar_entradas_blog(){
+    $args = array(
+        'post_type' => 'post',
+        'post_per_page' => 1,
+        'orderby' => 'date',
+        'order' => 'desc'
+    );
+    $entradas = new WP_Query($args);?>
+
+<div class="entradas-blog">
+    <h2 class="section-title"> Últimas entradas del blog </h2>
+</div>
+    
+
+
+
+<?php
+}
+add_action( 'woocommerce_after_shop_loop', 'tiendaNianne_mostrar_entradas_blog', 80);
