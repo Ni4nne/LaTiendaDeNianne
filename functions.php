@@ -84,3 +84,9 @@ function tiendaNianne_titulo_contenido_tab($titulo){
 add_filter('woocommerce_product_description_heading', 'tiendaNianne_titulo_contenido_tab', 10, 1);
 
 
+//Muestra una imagen del producto por defecto
+function tiendaNianne_imagen_prod_default($imagen_url){
+    $imagen_url = get_stylesheet_directory_uri( ) . '/img/logoNianne.png';
+    return $imagen_url;
+}
+add_filter('woocommerce_placeholder_img_src', 'tiendaNianne_imagen_prod_default');

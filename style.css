@@ -496,8 +496,13 @@ span.posted-on, span.post-author, span.post-comments {
     border-top: none;
 }
 
-
-
+/* PÁGINA DE CHECKOUT */
+/* Elimina menú de navegación, buscador y widgets del footer */ 
+.woocommerce-checkout .storefront-primary-navigation, 
+.woocommerce-checkout .site-search,
+.woocommerce-checkout .footer-widgets {
+    display: none;
+}
 
 
 /* FOOTER */ 
